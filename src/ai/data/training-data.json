@@ -1,0 +1,67 @@
+[
+  {
+    "input": "Solicitar mantenimiento para la grúa de carga",
+    "output": "Solicitud de Mantenimiento"
+  },
+  {
+    "input": "La grúa necesita revisión técnica",
+    "output": "Solicitud de Mantenimiento"
+  },
+  {
+    "input": "Hay un problema con el sistema de descarga, se necesita mantenimiento",
+    "output": "Solicitud de Mantenimiento"
+  },
+  {
+    "input": "Informar de una avería en el equipo de carga",
+    "output": "Solicitud de Mantenimiento"
+  },
+  {
+    "input": "El sistema de carga está fallando, por favor realicen mantenimiento",
+    "output": "Solicitud de Mantenimiento"
+  },
+  {
+    "input": "Revisen el equipo de elevación, parece estar fallando",
+    "output": "Solicitud de Mantenimiento"
+  },
+  {
+    "input": "El transportador necesita una revisión urgente",
+    "output": "Solicitud de Mantenimiento"
+  },
+
+  {
+    "input": "Reportar un incidente de seguridad en el área de carga",
+    "output": "Incidente de Seguridad"
+  },
+  {
+    "input": "Hubo un accidente en el muelle durante el turno de la mañana",
+    "output": "Incidente de Seguridad"
+  },
+  {
+    "input": "Un trabajador resultó herido en la zona de descarga, necesita atención",
+    "output": "Incidente de Seguridad"
+  },
+  {
+    "input": "Informar sobre un incidente de seguridad con el equipo de manipulación",
+    "output": "Incidente de Seguridad"
+  },
+  {
+    "input": "Hay un problema de seguridad en el área de almacenamiento",
+    "output": "Incidente de Seguridad"
+  },
+  {
+    "input": "Un accidente ocurrió en el área de recepción de carga, por favor investiguen",
+    "output": "Incidente de Seguridad"
+  },
+  {
+    "input": "Se reporta un incidente de seguridad relacionado con el uso de la grúa",
+    "output": "Incidente de Seguridad"
+  },
+  {
+    "input": "Un accidente ocurrió durante la descarga, se requiere una revisión de seguridad",
+    "output": "Incidente de Seguridad"
+  },
+  {
+    "input": "Revisión de seguridad necesaria debido a un incidente reciente",
+    "output": "Incidente de Seguridad"
+  }
+]

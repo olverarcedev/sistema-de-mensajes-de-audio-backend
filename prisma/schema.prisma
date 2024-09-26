@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id    Int    @id @default(autoincrement())
+  name  String
+  email String @unique
+  iconSrc String @default("https://cdn-icons-png.flaticon.com/512/4140/4140037.png")
+  audioMessages AudioMessage[]
+}
+
+model AudioMessage {
+  id    Int    @id @default(autoincrement())
+  audioSrc  String 
+  textRecognized String @db.Text
+  textIntent String @default("none")
+  createdAt DateTime @default(now())
+  sender    User   @relation(fields: [senderId], references: [id])
+  senderId  Int
+}
